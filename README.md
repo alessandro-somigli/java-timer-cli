@@ -22,3 +22,11 @@ Right now this project is only available for Windows, but Linux and Mac OS X are
  - add the timer to the PATH environment variable like this: C:\path\to\timer\Timer\src
  - restart your pc
  - go to the console and type `timer -t 60`. A timer of 60 seconds should start counting.
+
+# Docker
+ - download the repository and enter in the directory
+ - open the terminal
+ - type `docker build -t timer .`
+ - type `docker run timer -t 60`. A timer of 60 seconds should start counting.
+
+The sounds are still not working properly from docker but changes are coming soon.
